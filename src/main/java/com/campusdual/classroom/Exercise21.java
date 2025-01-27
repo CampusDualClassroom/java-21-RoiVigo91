@@ -55,9 +55,6 @@ public class Exercise21 {
         Set<String> hashSet = createHashSet();
         Set<String> treeSet = createTreeSet();
 
-        boolean hashSetResult = addElementToSet(hashSet, "ELEMENT ABCD");
-        boolean treeSetResult = addElementToSet(treeSet, "ELEMENT ABCD");
-
 
         System.out.println("\nElementos en HashSet:");
         printSet(hashSet);
