@@ -62,6 +62,15 @@ public class Exercise21 {
         System.out.println("\nElementos en TreeSet:");
         printSet(treeSet);
 
+        String newElement = "New Element";
+
+        boolean addedToHashSet = addElementToSet(hashSet, newElement);
+        System.out.println("\n"+ newElement + " añadido al HashSet: " + (addedToHashSet ? "Con éxito" : "Ya existía"));
+
+        boolean addedToTreeSet = addElementToSet(treeSet, newElement);
+        System.out.println(newElement + " añadido  al TreeSet: " + (addedToTreeSet ? "Con éxito" : "Ya existía"));
+
+
     }
 
 }
